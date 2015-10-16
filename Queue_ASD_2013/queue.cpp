@@ -120,7 +120,7 @@ bool Queue<T>::get(T& x)
 int main()
 {
 	Queue<int> q;
-	for (int i = 1; i <= 20; ++i)
+	for (int i = 1; i <= 10; ++i)
 		q.put(i);
 	int k;
 	Queue<int> q2{q};	//copy construction
